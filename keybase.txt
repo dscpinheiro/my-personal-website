@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dscpinheiro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dscpinheiro.com
+  * I am dscpinheiro (https://keybase.io/dscpinheiro) on keybase.
+  * I have a public key with fingerprint F616 0E04 B1BF 154F 4308  C0B0 E298 3114 48BF D235
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011436f30e50cc205e01d7557efeec0177ef9be5ee6af0283db74e6a457425973b0a",
+      "fingerprint": "f6160e04b1bf154f4308c0b0e298311448bfd235",
+      "host": "keybase.io",
+      "key_id": "e298311448bfd235",
+      "kid": "01011436f30e50cc205e01d7557efeec0177ef9be5ee6af0283db74e6a457425973b0a",
+      "uid": "e209a39a225d41ee9cc5d21b74052719",
+      "username": "dscpinheiro"
+    },
+    "service": {
+      "hostname": "dscpinheiro.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1513776944,
+  "expire_in": 157680000,
+  "prev": "69c4330867d8f0d4489c23841b93a831b8ced32d9120b62c7bf6b3fec03b9c4d",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJdSBRRFF41M00r0qygKAejhzW9d/5nLQyDEsoMbaVC2ObeueNOqzPb
+7Ky6mlCSWilBD1YI+RCBFvRDP2BCmtK/BYEgFSERZD2IRWJQKXVH7Kkeuy/33Hu+
+7zvnfJwHaQmelLipZy37ks6u6osbHrwQ9RzwVYIGBllajPE1MCEyd5EqjUScQMjQ
+GB8DIICQ50SdA0QAGLNAIABqkiBIRCcEAyjRQEFEIERUdcDKnIYknsa8IPGsoEgc
+AiqTw+iGWUnssG2YDpXVRSgCAngEkQ4FXuc5IGOAAGEVmaMFeRnpGssJlBi0Ii6D
+NofUCMk1LPpHH4G59v6B/899R+frAEXlFJVlBY2HhCgYCxoLKQMIrAQVFxghtqlW
+E4rWIjhsmEFi2BbTmMPQRI2BieutO8zfoFxsVVOFsG05FraqaDLoOOGIzyU7sbCL
+riUoMK8TQIapUTcpo4bYEcMyGR+kSOwYrjAUICdJosLzOQypCxs2CRguQpBEGdDj
+1iE1VFJUMM9R30VJk3WgUQ8VzHIyD5HCqdRVJGOicaymQBYgkcUS0kXE6dQ7DlGq
+xriTHTYtxifQNtVKKhkxKk3VidqEaRy6X7HAE5fiWZgY726ZJyV52Z/dK2pN+hV8
+cvN9Z3vWodFJXNI30/SwPvvxktaGosvOwN6v1vjd7uRLy/P6s3b+2HqufNe2vD2p
+27sCi4aj1fXF8Eri8bWzJ65NzDRj8Pb26ooXavmRLZ8zSt/VDzc+P73b/7Ro8/h4
+S0H+oxUn0+LvZd9qv+PvOfZtZdeZqoGxEbm32Aj58hu7v3cUFLx+6aQWrx98szG2
+aYYE82M/vaMy3zG9pjA9obgt8YZ+PtRvpH8YKbie1TI9BZr8bNrYJFs6XXY1v/ZU
+bLAwSZzI6M3L3PHlaBE4OKZtqLsY/lSbViI2NUdxWWCs1lsyu7gtSPzpmaad4m3p
+nBHbPo57l+5/1THUs+43Qvs7lw==
+=bb3R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dscpinheiro
+
+==================================================================
