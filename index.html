@@ -1,316 +1,100 @@
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <title>Daniel's web page</title>
+<!doctype html>
+<html lang="en">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Daniel's web page</title>
     <meta name="description" content="Daniel's personal web page'">
     <meta name="author" content="Daniel Schmidt Pinheiro">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-
-    <script src="js/modernizr.js"></script>
     <link rel="shortcut icon" href="favicon1.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header id="home">
-        <nav id="nav-wrap">
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+    <div class="container text-center mb-5">
+        <div class="jumbotron" style="padding: 2rem 1rem;">
+            <h1>Hi, I'm Daniel!</h1>
+            <p class="lead">I'm a software developer working primarily with the Microsoft technology stack (C#, ASP.NET, .NET Core, Entity Framework, etc.) and Amazon Web Services. I'm originally from Brazil but I currently live in Canada.</p>
 
-            <ul id="nav" class="nav">
-                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                <li><a class="smoothscroll" href="#about">About</a></li>
-                <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            </ul>
-        </nav>
-
-        <div class="row banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">Hi, I'm Daniel!</h1>
-                <h3>
-                    I'm a <span>software developer</span> with over 8 years of experience, working primarily with the Microsoft technology stack (C#, ASP.NET, .NET Core, Entity Framework, etc.) and Amazon Web Services.
-                </h3>
-
-                <hr />
-
-                <ul class="social">
-                    <li><a href="https://facebook.com/dscpinheiro" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/dscpinheiro" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://linkedin.com/in/dscpinheiro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/dscpinheiro/" target="_blank"><i class="fa fa-github"></i></a></li>
-                </ul>
-            </div>
+            <a href="https://twitter.com/dscpinheiro" target="_blank" class="fa fa-twitter px-2 text-decoration-none" style="font-size: 32px;"></a>
+            <a href="https://github.com/dscpinheiro" target="_blank" class="fa fa-github px-2 text-decoration-none" style="font-size: 32px;"></a>
+            <a href="https://linkedin.com/in/dscpinheiro" target="_blank" class="fa fa-linkedin px-2 text-decoration-none" style="font-size: 32px;"></a>
+            <a href="https://keybase.io/dscpinheiro" target="_blank" class="fa fa-key px-2 text-decoration-none" style="font-size: 32px;"></a>
         </div>
 
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-        </p>
-    </header>
+        <h2 class="mt-4">Work experience</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Solutions Builder @ <a href="https://aws.amazon.com/" target="_blank">AWS</a> (July 2019 - Present)
+            </li>
+            <li class="list-group-item">
+                Software Engineer @ <a href="https://www.quest.com/" target="_blank">Quest Software</a> (May 2018 - July 2019)
+            </li>
+            <li class="list-group-item">
+                .NET Developer @ <a href="http://www.accera.com.br/" target="_blank">Accera</a> (January 2015 - February 2018)
+            </li>
+            <li class="list-group-item">
+                Analytics Developer Intern @ <a href="https://www.sap.com/canada/index.html" target="_blank">SAP</a> (May 2014 - September 2014)
+            </li>
+            <li class="list-group-item">
+                .NET Developer @ <a href="http://www.meta.com.br/" target="_blank">Grupo Meta</a> (May 2011 - December 2013)
+            </li>
+        </ul>
 
-    <section id="about">
-        <div class="row">
-            <div class="twelve columns main-col">
-                <h2>About Me</h2>
-                <p>
-                    My name is Daniel and over the last few years I've been working with the Microsoft technology stack.
-                    Some of the skills I'm familiar with include: C#, ASP.NET MVC, .NET Core, SQL, and AWS.
-                </p>
-                <p>
-                    Also in the first semester of 2017, I was about to graduate from college and didn't really see myself going into academics (at least for now), but I still wanted to
-                    keep growing professionally. Right around that time, I saw a webinar whose title was (ironically) "How to Prepare for AWS Certification and Advance your Career".
-                    That really caught my attention since even though I'd been working with AWS for a little over 2 years, I couldn't call myself an expert because there were so many services
-                    and concepts that I'd never heard of.
-                </p>
-                <p>
-                    In order to change that, I started studying and getting my hands dirty with AWS on my own time, and as of today,
-                    I hold all associate (Developer, Solutions Architect, and SysOps Administrator) and professional (DevOps Engineer and Solutions Architect) certifications available.
-                    One of my goals for next year is to keep learning and pass some of the specialties as well.
-                </p>
+        <h2 class="mt-4">Education</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Bachelor's degree in Information Systems @ <a href="http://www.unisinos.br/global/en/" target="_blank">Unisinos</a> (March 2012 - July 2017)
+            </li>
+            <li class="list-group-item">
+                Exchange Student in Computer Science @ <a href="https://www.ubc.ca/" target="_blank">UBC</a> (2014)
+                <p><small> Back in 2013, I applied for a scholarship funded by the Brazilian government named "Science Without Borders", which allowed students to spend two academic terms studying abroad. I ended up getting accepted for two semesters on Computer Science at UBC.</small></p>
+            </li>
+        </ul>
 
-                <div class="row">
-                    <div class="columns contact-details">
-                        <h2>Contact Details</h2>
-                        <p class="address">
-                            <span>Daniel S. Pinheiro</span><br>
-                            <span>Ottawa, ON, Canada</span><br>
-                            <span>dscpinheiro at gmail dot com</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2 class="mt-4">Certifications</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-03-19&i=4&ci=AWS00250067" target="_blank">AWS Certified Solutions Architect - Professional</a> (March 2019)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=5&t=c&d=2018-12-05&ci=AWS00250067" target="_blank">AWS Certified DevOps Engineer - Professional</a> (December 2018)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-09-16&i=8&ci=AWS00250067" target="_blank">AWS Certified Big Data - Specialty</a> (September 2019)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-07-02&i=6&ci=AWS00250067" target="_blank">AWS Certified Advanced Networking - Specialty</a> (July 2019)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-04-23&i=7&ci=AWS00250067" target="_blank">AWS Certified Security - Specialty</a> (April 2019)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-09-13&i=3&ci=AWS00250067" target="_blank">AWS Certified SysOps Administrator - Associate</a> (September 2017)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-07-05&i=1&ci=AWS00250067" target="_blank">AWS Certified Solutions Architect - Associate</a> (July 2017)
+            </li>
+            <li class="list-group-item">
+                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-04-26&i=2&ci=AWS00250067" target="_blank">AWS Certified Developer – Associate</a> (April 2017)
+            </li>
+        </ul>
+    </div>
 
-    <section id="resume">
-        <div class="row work">
-            <div class="three columns header-col">
-                <h1><span>Work</span></h1>
-            </div>
-
-            <div class="nine columns main-col">
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://aws.amazon.com/" target="_blank">
-                                Amazon Web Services
-                            </a>
-                        </h3>
-                        <p class="info">Solutions Builder <span>&bull;</span> <em class="date">July 2019 - Present</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.quest.com/" target="_blank">
-                                Quest Software
-                            </a>
-                        </h3>
-                        <p class="info">Software Engineer <span>&bull;</span> <em class="date">May 2018 - July 2019</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="http://www.accera.com.br/" target="_blank">
-                                Accera
-                            </a>
-                        </h3>
-                        <p class="info">.NET Developer <span>&bull;</span> <em class="date">January 2015 - February 2018</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.sap.com/canada/index.html" target="_blank">
-                                SAP Vancouver
-                            </a>
-                        </h3>
-                        <p class="info">Analytics Developer Intern <span>&bull;</span> <em class="date">May 2014 - September 2014</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="http://www.meta.com.br/site/" target="_blank">
-                                Grupo Meta
-                            </a>
-                        </h3>
-                        <p class="info">.NET Developer <span>&bull;</span> <em class="date">January 2012 - December 2013</em></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row education">
-            <div class="three columns header-col">
-                <h1><span>Education</span></h1>
-            </div>
-
-            <div class="nine columns main-col">
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="http://www.unisinos.br/global/en/" target="_blank">
-                                Universidade do Vale do Rio dos Sinos
-                            </a>
-                        </h3>
-                        <p class="info">Bachelor's degree in Information Systems <span>&bull;</span> <em class="date">March 2012 - July 2017</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.ubc.ca/" target="_blank">
-                                The University of British Columbia
-                            </a>
-                        </h3>
-                        <p class="info">Exchange Student in Computer Science <span>&bull;</span> <em class="date">2014</em></p>
-
-                        <p>
-                             Back in 2013, I applied for a scholarship funded by the Brazilian government named "Science Without Borders",
-                             which allows students to spend two academic terms studying abroad.
-                             I ended up getting accepted for two semesters on Computer Science at UBC.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row certifications">
-            <div class="three columns header-col">
-                <h1><span>Certifications</span></h1>
-            </div>
-
-            <div class="nine columns main-col">
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-03-19&i=4&ci=AWS00250067" target="_blank">
-                                AWS Certified Solutions Architect - Professional
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">March 2019</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=5&t=c&d=2018-12-05&ci=AWS00250067" target="_blank">
-                                AWS Certified DevOps Engineer - Professional
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">December 2018</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-09-16&i=8&ci=AWS00250067" target="_blank">
-                                AWS Certified Big Data - Specialty
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">September 2019</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-07-02&i=6&ci=AWS00250067" target="_blank">
-                                AWS Certified Advanced Networking - Specialty
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">July 2019</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2019-04-23&i=7&ci=AWS00250067" target="_blank">
-                                AWS Certified Security - Specialty
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">April 2019</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-09-13&i=3&ci=AWS00250067" target="_blank">
-                                AWS Certified SysOps Administrator - Associate
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">September 2017</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-07-05&i=1&ci=AWS00250067" target="_blank">
-                                AWS Certified Solutions Architect – Associate
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">July 2017</em></p>
-                    </div>
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3>
-                            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2017-04-26&i=2&ci=AWS00250067" target="_blank">
-                                AWS Certified Developer – Associate
-                            </a>
-                        </h3>
-                        <p class="info"><em class="date">April 2017</em></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="row">
-            <div class="twelve columns">
-                <ul class="social-links">
-                    <li><a href="https://facebook.com/dscpinheiro" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/dscpinheiro" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://linkedin.com/in/dscpinheiro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/dscpinheiro/" target="_blank"><i class="fa fa-github"></i></a></li>
-                </ul>
-
-                <ul class="copyright">
-                    <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                </ul>
-            </div>
-
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-        </div>
-    </footer>
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
